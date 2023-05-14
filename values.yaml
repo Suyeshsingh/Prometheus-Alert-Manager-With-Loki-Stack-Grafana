@@ -22,5 +22,5 @@ grafana:
   grafana.ini:
     server:
       domain: "www.example.com"
-      root_url: "https://www.example.com/grafana/
+      root_url: "https://www.example.com/grafana/"
   
