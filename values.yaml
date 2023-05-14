@@ -19,8 +19,10 @@ grafana:
       enabled: true
   image:
     tag: 9.0.0
-  grafana.ini:
-    server:
-      domain: "www.example.com"
-      root_url: "https://www.example.com/grafana/"
+serverConfigFile:
+  grafana.ini: |
+    [server]
+    ;domain = www.example.com
+    ;root_url = https://www.example.com/grafana/
+
   
