@@ -1,0 +1,26 @@
+loki:
+  enabled: true
+  persistence:
+     enabled: true
+     storageClassName: nfs-client
+     size: 1Gi
+  config:
+     table_manager:
+       retention_deletes_enabled : true
+       retention_period: 720h
+
+promtail:
+  enabled: true
+
+grafana:
+  enabled: true
+  sidecar:
+    datasources:
+      enabled: true
+  image:
+    tag: 9.0.0
+  grafana.ini:
+    server:
+      domain: "www.example.com"
+      root_url: "https://www.example.com/grafana/
+  
