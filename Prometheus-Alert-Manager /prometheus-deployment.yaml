@@ -1,4 +1,3 @@
-  GNU nano 4.8                                              prometheus-deployment.yaml                                                         
 apiVersion: apps/v1
 kind: Deployment
 metadata:
