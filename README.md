@@ -15,3 +15,4 @@ helm repo update
 
 helm install loki-stack grafana/loki-stack --set grafana.rbac.pspEnabled=false --values values.yaml -n monitoring
 
+Note: Please edit values.yaml file for loki stack accordingly.
