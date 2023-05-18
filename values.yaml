@@ -18,6 +18,6 @@ grafana:
     datasources:
       enabled: true
   image:
-    tag: 9.0.0
+    tag: 9.5.2
 
   
