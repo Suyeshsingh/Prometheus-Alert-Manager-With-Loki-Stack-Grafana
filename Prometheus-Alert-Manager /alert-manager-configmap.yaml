@@ -18,10 +18,10 @@ data:
     - name: alert-emailer
       email_configs:
       - to: suyeshsingh@outlook.com
-        send_resolved: false
+        send_resolved: true
         from: from-email@email.com
         smarthost: smtp.eample.com:25
         require_tls: false
         auth_username: mail_id@gmail.com
         auth_identity: mail_id@gmail.com
-        auth_password: password
+        auth_password: <Enter password here>
